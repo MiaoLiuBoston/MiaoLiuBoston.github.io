@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Miao Liu — Assistant Professor of Accounting at Boston College Carroll School of Management. Research in accounting, machine learning, AI, and financial disclosure." />
+  <meta name="author" content="Miao Liu" />
+  <meta property="og:title" content="Miao Liu | Boston College" />
+  <meta property="og:description" content="Assistant Professor of Accounting, Boston College Carroll School of Management." />
+  <meta property="og:type" content="website" />
+  <title>Miao Liu | Boston College</title>
+
+  <!-- Google Fonts: Crimson Pro (serif) + Inter (sans) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome 6 Free (CDN) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ════════════════ NAVIGATION ════════════════ -->
+  <nav id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a class="nav-brand" href="#about">Miao Liu</a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#publications">Research</a>
+        <a href="teaching.html">Teaching: AI in Business</a>
+        <a href="alphaval.html">AlphaVal AGENT</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- ════════════════ ABOUT ════════════════ -->
+    <section id="about">
+      <div class="hero-inner">
+        <div class="hero-photo">
+          <img src="doc/pic2.png" alt="Miao Liu" />
+        </div>
+        <div class="hero-text">
+          <h1>Miao Liu</h1>
+          <p class="hero-title">Assistant Professor of Accounting</p>
+          <p class="hero-institution">Boston College &mdash; Carroll School of Management</p>
+          <div class="hero-bio">
+            <p>
+              My research lies at the intersection of accounting and AI.
+              I study how firms and markets produce and process information &mdash;
+              with a particular focus on how machine learning and large language models
+              can uncover new insights in financial disclosure, capital markets, and corporate transparency.
+            </p>
+            <p>
+              I designed and teach <em>AI Applications in Business: Insights from Corporate Data</em>
+              for undergraduate and MBA students at Boston College.
+              The course moves from corporate valuation to supervised machine learning and then to
+              large language models and transformer architectures applied to financial filings,
+              earnings calls, and other corporate text data. It emphasizes that business domain
+              knowledge remains essential in the AI era and helps students develop critical thinking
+              by learning to use LLMs as a co-pilot rather than a substitute for judgment.
+            </p>
+            <p>
+              I received my Ph.D. in Accounting from the University of Chicago Booth School of Business in 2020.
+            </p>
+          </div>
+          <div class="hero-links">
+            <a href="mailto:miao.liu@bc.edu" class="btn btn-primary">
+              <i class="fa-solid fa-envelope"></i> Email
+            </a>
+            <a href="#publications" class="btn btn-outline">
+              <i class="fa-solid fa-file-lines"></i> Research
+            </a>
+            <a href="doc/CV.pdf" target="_blank" rel="noopener" class="btn btn-outline">
+              <i class="fa-solid fa-file-arrow-down"></i> CV
+            </a>
+            <a href="#contact" class="btn btn-outline">
+              <i class="fa-solid fa-location-dot"></i> Contact
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════ PUBLICATIONS ════════════════ -->
+    <section id="publications">
+      <div class="container">
+        <h2 class="section-title"><i class="fa-solid fa-book-open"></i> Publications</h2>
+
+        <div class="paper-filter" role="group" aria-label="Filter papers by status">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="published">Published</button>
+          <button class="filter-btn" data-filter="accepted">Conditionally Accepted</button>
+        </div>
+
+        <div class="papers-list">
+
+          <!-- JAE: Credit Loss -->
+          <div class="paper-card accepted" data-category="accepted">
+            <div class="paper-header">
+              <div class="paper-title">
+                &ldquo;Credit Loss Expectations: Insights from Bank Supervisory Data&rdquo;
+              </div>
+              <span class="badge badge-accepted">Conditionally Accepted</span>
+            </div>
+            <div class="paper-journal">Journal of Accounting and Economics</div>
+            <div class="paper-authors">with Sanjeev Bhojraj, Anya Kleymenova, Yao Lu, and Partha Sengupta</div>
+            <div class="paper-notes">
+              <span class="paper-note"><i class="fa-solid fa-star"></i> Invited to Present at the 2025 JAE Conference</span>
+            </div>
+          </div>
+
+          <!-- JAR: Informing Entrepreneurs -->
+          <div class="paper-card accepted" data-category="accepted">
+            <div class="paper-header">
+              <div class="paper-title">
+                &ldquo;Informing Entrepreneurs: Public Corporate Disclosure and New Business Formation&rdquo;
+              </div>
+              <span class="badge badge-accepted">Conditionally Accepted</span>
+            </div>
+            <div class="paper-journal">Journal of Accounting Research</div>
+            <div class="paper-authors">with John Barrios, Jung Ho Choi, Yael Hochberg, and Jinhwan Kim</div>
+          </div>
+
+          <!-- JAR 2022: Job Market Paper -->
+          <div class="paper-card published" data-category="published">
+            <div class="paper-header">
+              <div class="paper-title">
+                &ldquo;Assessing Human Information Processing in Lending Decisions: A Machine Learning Approach&rdquo;
+              </div>
+              <span class="badge badge-published">Published</span>
+            </div>
+            <div class="paper-journal">Journal of Accounting Research, 60: 607–651, 2022</div>
+            <div class="paper-notes">
+              <span class="paper-note"><i class="fa-solid fa-trophy"></i> 2021 FARS Best Dissertation Award</span>
+              <span class="paper-note"><i class="fa-solid fa-chart-line"></i> Top 10 most-cited papers in JAR (2022–23)</span>
+              <span class="paper-note"><i class="fa-solid fa-star"></i> Invited to Present at the 2021 JAR Conference</span>
+            </div>
+          </div>
+
+          <!-- AEJ: Macroeconomics 2016 -->
+          <div class="paper-card published" data-category="published">
+            <div class="paper-header">
+              <div class="paper-title">
+                &ldquo;Are Chinese Growth and Inflation Too Smooth? Evidence from Engel Curves&rdquo;
+              </div>
+              <span class="badge badge-published">Published</span>
+            </div>
+            <div class="paper-journal">American Economic Journal: Macroeconomics, 8(3): 113–144, 2016</div>
+            <div class="paper-authors">with Emi Nakamura and Jon Steinsson</div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════ WORKING PAPERS ════════════════ -->
+    <section id="working-papers">
+      <div class="container">
+        <h2 class="section-title"><i class="fa-solid fa-pen-to-square"></i> Working Papers</h2>
+
+        <div class="paper-filter" role="group" aria-label="Filter working papers">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="rr">R&amp;R</button>
+          <button class="filter-btn" data-filter="submitted">Submitted</button>
+          <button class="filter-btn" data-filter="working">In Progress</button>
+        </div>
+
+        <div class="papers-list">
+
+          <!-- R&R: IFRS Non-adoption -->
+          <div class="paper-card rr" data-category="rr">
+            <div class="paper-header">
+              <div class="paper-title">&ldquo;The Cost of Regulatory Inaction: Evidence from IFRS Non-adoption&rdquo;</div>
+              <span class="badge badge-rr">R&amp;R</span>
+            </div>
+            <div class="paper-journal">The Accounting Review</div>
+            <div class="paper-authors">with Wanrong Xu and Rachel Xi Zhang</div>
+            <div class="paper-presentations">Presentations: BC; NUS; HARC</div>
+          </div>
+
+          <!-- R&R: Non-Answers -->
+          <div class="paper-card rr" data-category="rr">
+            <div class="paper-header">
+              <div class="paper-title">&ldquo;The Credibility of Non-Answers in Conference Calls: a Real-time Market Response Approach&rdquo;</div>
+              <span class="badge badge-rr">R&amp;R</span>
+            </div>
+            <div class="paper-journal">The Accounting Review</div>
+            <div class="paper-authors">with Yang Cao and Jared Flake</div>
+            <div class="paper-presentations">Presentations: FARS; AAA; BC; BYU</div>
+          </div>
+
+          <!-- R&R: Executives vs. Chatbots -->
+          <div class="paper-card rr" data-category="rr">
+            <div class="paper-header">
+              <div class="paper-title">&ldquo;Executives vs. Chatbots: Unmasking Insights through Human-AI Differences in Earnings Conference Q&amp;A&rdquo;</div>
+              <span class="badge badge-rr">R&amp;R</span>
+            </div>
+            <div class="paper-journal">Management Science</div>
+            <div class="paper-authors">with John (Jianqiu) Bai, Nicole Boyson, Yi Cao, and Chi Wan</div>
+            <div class="paper-presentations">Presentations: SOAR Symposium; Santiago Finance Workshop; Fintech for Inclusivity; CFEA; NFA; MAS; HARC; Northeastern; NTU Singapore; CICF; Balyasny Asset Management; Q-Group; LLMs &amp; Generative AI for Finance Workshop; Wolfe Research AI in Finance Conference</div>
+          </div>
+
+          <!-- R&R: Locking in Talent -->
+          <div class="paper-card rr" data-category="rr">
+            <div class="paper-header">
+              <div class="paper-title">&ldquo;Locking in Talent through Disclosure: Labor Market Competition and Corporate Patent Transparency&rdquo;</div>
+              <span class="badge badge-rr">R&amp;R</span>
+            </div>
+            <div class="paper-journal">Journal of Accounting and Economics</div>
+            <div class="paper-authors">with Yu Hou, Jiaping Qiu, and Chi Wan</div>
+            <div class="paper-presentations">Presentations: WHU</div>
+          </div>
+
+          <!-- R&R: Biodiversity -->
+          <div class="paper-card rr" data-category="rr">
+            <div class="paper-header">
+              <div class="paper-title">&ldquo;Biodiversity Risk Disclosure&rdquo;</div>
+              <span class="badge badge-rr">R&amp;R</span>
+            </div>
+            <div class="paper-journal">Journal of Accounting and Economics</div>
+            <div class="paper-authors">with Sijia Fan, Yao Lu, and David Ng</div>
+            <div class="paper-presentations">Presentations: SOAR Accounting Symposium; HKUST Accounting Research Symposium; Cornell; CICF</div>
+          </div>
+
+          <!-- Submitted: Shadow Value of Public Info -->
+          <div class="paper-card submitted" data-category="submitted">
+            <div class="paper-header">
+              <div class="paper-title">&ldquo;The Shadow Value of &ldquo;Public&rdquo; Information: Evidence from Mutual Fund Managers&rdquo;</div>
+              <span class="badge badge-submitted">Submitted</span>
+            </div>
+            <div class="paper-authors">with Ed deHaan, Chanseok Lee, and Suzie Noh</div>
+            <div class="paper-presentations">Presentations: Stanford; LBS; Berkeley; MIT; BU; Bocconi Accounting Symposium; Colorado Summer Accounting Research Conference; CICF</div>
+          </div>
+
+          <!-- Submitted: Charts -->
+          <div class="paper-card submitted" data-category="submitted">
+            <div class="paper-header">
+              <div class="paper-title">&ldquo;When Charts Clarify and Mislead: Visual Disclosure in Earnings Call Presentations&rdquo;</div>
+              <span class="badge badge-submitted">Submitted</span>
+            </div>
+            <div class="paper-authors">with Yang Cao and Zhizhe Liu</div>
+            <div class="paper-presentations">Presentations: CUHK (Shenzhen); HK PolyU; FARS; HARC; NYU Stern; Dartmouth</div>
+          </div>
+
+          <!-- Submitted: Narrative Risk -->
+          <div class="paper-card submitted" data-category="submitted">
+            <div class="paper-header">
+              <div class="paper-title">&ldquo;Narrative Risk Disclosures: Implications for Systematic Risk Exposures and Asset Prices&rdquo;</div>
+              <span class="badge badge-submitted">Submitted</span>
+            </div>
+            <div class="paper-authors">with John (Jianqiu) Bai, Chi Wan, and Zafer Yuksel</div>
+            <div class="paper-notes">
+              <span class="paper-note"><i class="fa-solid fa-trophy"></i> 2024 Michael Jones Best Paper Prize</span>
+            </div>
+            <div class="paper-presentations">Presentations: U of Utah; Balyasny Asset Management; Financial Reporting and Business Communication Conference; WHU; Accounting Design Project Workshop; BEACON Conference</div>
+          </div>
+
+          <!-- Submitted: Product Announcements -->
+          <div class="paper-card submitted" data-category="submitted">
+            <div class="paper-header">
+              <div class="paper-title">&ldquo;The Market Value of Commercialized Innovation: Evidence from Product Announcements&rdquo;</div>
+              <span class="badge badge-submitted">Submitted</span>
+            </div>
+            <div class="paper-authors">with Danqing Mei and Tianshu Sun</div>
+            <div class="paper-presentations">Presentations: CKGSB</div>
+          </div>
+
+          <!-- Working: Risk Sharing Value of Disclosure -->
+          <div class="paper-card working" data-category="working">
+            <div class="paper-header">
+              <div class="paper-title">&ldquo;The Risk Sharing Value of Disclosure: A Real-time Market Response Approach to Hedge Climate Change Risk&rdquo;</div>
+              <span class="badge badge-working">Working Paper</span>
+            </div>
+            <div class="paper-authors">with Yang Cao and Rachel Zhang</div>
+            <div class="paper-notes">
+              <span class="paper-note"><i class="fa-solid fa-trophy"></i> 2024 IQAM Research Award (2nd Prize)</span>
+            </div>
+            <div class="paper-presentations">Presentations: BEACON; BC; Northeastern Finance Conference; EFMA; HK Conference for Fintech AI and Big Data; Xiamen U; CICF; Bristol Financial Markets Conference; JAAF ESG Symposium; DekaBank Frankfurt; PolyU; FARS</div>
+          </div>
+
+          <!-- Working: Human Information Production -->
+          <div class="paper-card working" data-category="working">
+            <div class="paper-header">
+              <div class="paper-title">&ldquo;Human Information Production in the Data Economy: Evidence from Digitalization in the Asset Management Industry&rdquo;</div>
+              <span class="badge badge-working">Working Paper</span>
+            </div>
+            <div class="paper-authors">with Yang Cao, Kai Du, and Shuyang Wang</div>
+            <div class="paper-presentations">Presentations: BEACON; MIT Asia; Accounting and Labor Conference; NanYang Tech U; FARS; AAA</div>
+          </div>
+
+          <!-- Working: Digital Wordsmith -->
+          <div class="paper-card working" data-category="working">
+            <div class="paper-header">
+              <div class="paper-title">&ldquo;The Digital Wordsmith: AI-Assisted Disclosures and Crowdfunding Success&rdquo;</div>
+              <span class="badge badge-working">Working Paper</span>
+            </div>
+            <div class="paper-authors">with John (Jianqiu) Bai, Yi Cao, and Chi Wan</div>
+            <div class="paper-presentations">Presentations: CICF</div>
+          </div>
+
+          <!-- Working: Information Concentration -->
+          <div class="paper-card working" data-category="working">
+            <div class="paper-header">
+              <div class="paper-title">&ldquo;Is Information Production for the U.S. Stock Market Becoming More Concentrated?&rdquo;</div>
+              <span class="badge badge-working">Working Paper</span>
+            </div>
+            <div class="paper-authors">with Yang Cao and Rachel Xi Zhang</div>
+            <div class="paper-presentations">Presentations: FARS; Music City Conference; MIT Asia; BC; Chicago Booth; AAA</div>
+          </div>
+
+          <!-- Working: Human-AI Valuation -->
+          <div class="paper-card working" data-category="working">
+            <div class="paper-header">
+              <div class="paper-title">&ldquo;Human&ndash;AI Collaboration in Corporate Valuation: Experimental Evidence with a Valuation AI Agent&rdquo;</div>
+              <span class="badge badge-working">Working Paper</span>
+            </div>
+            <div class="paper-authors">with Huan Liu, Zhizhe Liu, and Danqing Mei</div>
+          </div>
+
+          <!-- Working: Imperfect Expectations -->
+          <div class="paper-card working" data-category="working">
+            <div class="paper-header">
+              <div class="paper-title">&ldquo;Imperfect Expectations in Earnings Guidance&rdquo;</div>
+              <span class="badge badge-working">Working Paper</span>
+            </div>
+            <div class="paper-authors">with Sanjeev Bhojraj, Ruining Li, and Yao Lu</div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════ CONTACT ════════════════ -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title"><i class="fa-solid fa-address-card"></i> Contact</h2>
+        <div class="contact-grid">
+
+          <div class="contact-block">
+            <h3>Get in Touch</h3>
+            <div class="contact-row">
+              <i class="fa-solid fa-envelope"></i>
+              <span><a href="mailto:miao.liu@bc.edu">miao.liu@bc.edu</a></span>
+            </div>
+            <div class="contact-row">
+              <i class="fa-solid fa-phone"></i>
+              <span>(917) 392-5887</span>
+            </div>
+            <div class="contact-row">
+              <i class="fa-solid fa-location-dot"></i>
+              <span>
+                Carroll School of Management<br/>
+                Boston College<br/>
+                140 Commonwealth Avenue<br/>
+                Chestnut Hill, MA 02467
+              </span>
+            </div>
+          </div>
+
+          <div class="contact-block">
+            <h3>Professional Profiles</h3>
+            <div class="contact-row">
+              <i class="fa-solid fa-building-columns"></i>
+              <span><a href="https://www.bc.edu/bc-web/schools/carroll-school/faculty-research/faculty-directory/miao-liu.html" target="_blank" rel="noopener">Boston College Faculty Page</a></span>
+            </div>
+            <div class="contact-row">
+              <i class="fa-brands fa-google"></i>
+              <span><a href="https://scholar.google.com/citations?user=RqhlKRgAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a></span>
+            </div>
+            <div class="contact-row">
+              <i class="fa-solid fa-file-lines"></i>
+              <span><a href="https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2834998" target="_blank" rel="noopener">SSRN</a></span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ════════════════ FOOTER ════════════════ -->
+  <footer>
+    <p>
+      &copy; <span id="year"></span> Miao Liu &middot; Boston College, Carroll School of Management
+    </p>
+  </footer>
+
+  <!-- Back to top -->
+  <button id="back-top" aria-label="Back to top">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <script src="js/main.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

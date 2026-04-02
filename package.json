@@ -1,0 +1,10 @@
+{
+  "name": "miao-liu-academic-site",
+  "version": "1.0.0",
+  "description": "Personal academic webpage for Miao Liu, Assistant Professor at Boston College",
+  "scripts": {
+    "start": "node serve.js",
+    "dev": "node serve.js"
+  },
+  "dependencies": {}
+}

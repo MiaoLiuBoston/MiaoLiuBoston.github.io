@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="AlphaVal — AI-Powered Corporate Valuation Agent. Built by Miao Liu, Huan Liu, Zhizhe Liu, and Danqing Mei." />
+  <title>AlphaVal Agent | Miao Liu — Boston College</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ════════════════ NAVIGATION ════════════════ -->
+  <nav id="navbar" class="scrolled" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a class="nav-brand" href="index.html">Miao Liu</a>
+      <div class="nav-links">
+        <a href="index.html#about">About</a>
+        <a href="index.html#publications">Research</a>
+        <a href="teaching.html">Teaching: AI in Business</a>
+        <a href="alphaval.html" class="active">AlphaVal AGENT</a>
+        <a href="index.html#contact">Contact</a>
+      </div>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- ════════════════ PAGE HEADING ════════════════ -->
+    <div class="container agents-hero">
+      <h1>AI Valuation Agent</h1>
+      <p>AI-Powered Corporate Valuation Agent</p>
+    </div>
+
+    <!-- ════════════════ AGENTS LIST ════════════════ -->
+    <div class="container agents-list">
+
+      <!-- AlphaVal -->
+      <div class="agent-card">
+        <div class="agent-image">
+          <img src="doc/alphaval_files/alphaval.png" alt="AlphaVal — AI-Powered Corporate Valuation Agent" />
+        </div>
+        <div class="agent-body">
+          <div class="agent-name">AlphaVal</div>
+          <div class="agent-subtitle">AI-Powered Corporate Valuation Agent</div>
+          <p class="agent-desc">
+            A retrieval-augmented AI agent that reads financial filings and produces interactive
+            dashboards and valuation analytics. AlphaVal supplies hard information — structured
+            financial data and AI-generated valuations — to support and study human analyst
+            judgment in corporate valuation tasks.
+          </p>
+          <div class="agent-actions">
+            <a href="https://alphaval.ai/" target="_blank" rel="noopener" class="btn btn-primary">
+              <i class="fa-solid fa-globe"></i> Visit AlphaVal
+            </a>
+            <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6485198" target="_blank" rel="noopener" class="btn btn-outline">
+              <i class="fa-solid fa-file-lines"></i> Human&ndash;AI Collaboration in Corporate Valuation
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </main>
+
+  <!-- ════════════════ FOOTER ════════════════ -->
+  <footer>
+    <p>
+      &copy; <span id="year"></span> Miao Liu &middot; Boston College, Carroll School of Management
+    </p>
+  </footer>
+
+  <button id="back-top" aria-label="Back to top">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <script src="js/main.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
