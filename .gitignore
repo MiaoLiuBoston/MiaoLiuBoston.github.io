@@ -1,6 +1,13 @@
-# Private documents
-doc/
+# Claude settings
 .claude/
+
+# Source/draft files in doc (keep images, PDFs, and teaching materials)
+doc/alphaval_files/*.js.download
+doc/alphaval_files/*.css
+doc/PLAN.md
+doc/alphaval.html
+doc/Miao Liu's CV.tex
+Miao Liu's CV.tex
 
 # Node.js
 node_modules/
