@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="FinAgentLab — Hypothesis Discovery with AI Research Agents in Finance and Accounting. Miao Liu, Boston College Carroll School of Management." />
+  <title>FinAgentLab | Miao Liu — Boston College</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ════════════════ NAVIGATION ════════════════ -->
+  <nav id="navbar" class="scrolled" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a class="nav-brand" href="index.html">Miao Liu</a>
+      <div class="nav-links">
+        <a href="index.html#about">About</a>
+        <a href="index.html#publications">Research</a>
+        <a href="teaching.html">Teaching: AI in Business</a>
+        <a href="alphaval.html">AlphaVal AGENT</a>
+        <a href="finagentlab.html" class="active">FinAgentLab</a>
+        <a href="index.html#contact">Contact</a>
+      </div>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- ════════════════ PAGE HERO ════════════════ -->
+    <div class="course-hero">
+      <div class="course-hero-inner">
+        <div class="course-label">Research Project</div>
+        <h1>Hypothesis Discovery with AI Research Agents<br/><em>in Finance and Accounting</em></h1>
+        <div class="course-hero-actions" style="margin-top: 32px;">
+          <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6528218" target="_blank" rel="noopener" class="btn btn-outline">
+            <i class="fa-solid fa-file-lines"></i> Read the Paper on SSRN
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ════════════════ PROJECT CONTENT ════════════════ -->
+    <section style="padding: 56px 0 80px;">
+      <div class="container">
+
+        <!-- Overview -->
+        <div style="margin-bottom: 48px;">
+          <h2 class="section-title"><i class="fa-solid fa-flask"></i> Project Overview</h2>
+          <p style="font-size: 0.97rem; color: var(--text-muted); line-height: 1.8; max-width: 760px;">
+            This project develops and evaluates AI research agents capable of autonomously generating
+            and evaluating novel empirical hypotheses in finance and accounting. By combining large
+            language models with structured financial data and domain-specific reasoning, these agents
+            can propose, refine, and rank research conjectures — compressing early-stage idea generation
+            and enabling researchers to explore a broader landscape of questions.
+          </p>
+        </div>
+
+        <!-- Key Themes -->
+        <div style="margin-bottom: 48px;">
+          <h2 class="section-title"><i class="fa-solid fa-lightbulb"></i> Key Themes</h2>
+          <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 20px;">
+
+            <div class="paper-card working" style="border-left-color: #1a3564;">
+              <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 10px;">
+                <div class="unit-badge" style="width: 40px; height: 40px; font-size: 1rem;"><i class="fa-solid fa-robot"></i></div>
+                <div class="agent-name" style="font-size: 1.05rem;">Agentic Hypothesis Generation</div>
+              </div>
+              <p class="agent-desc" style="margin-bottom: 0;">
+                AI agents that autonomously explore financial datasets and propose theory-grounded
+                empirical hypotheses, with supporting rationale and testability assessments.
+              </p>
+            </div>
+
+            <div class="paper-card working" style="border-left-color: #1a3564;">
+              <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 10px;">
+                <div class="unit-badge" style="width: 40px; height: 40px; font-size: 1rem;"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
+                <div class="agent-name" style="font-size: 1.05rem;">Finance &amp; Accounting Domain</div>
+              </div>
+              <p class="agent-desc" style="margin-bottom: 0;">
+                Grounded in the institutional context of corporate disclosure, capital markets,
+                and financial reporting — where structured and textual data are abundant.
+              </p>
+            </div>
+
+            <div class="paper-card working" style="border-left-color: #1a3564;">
+              <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 10px;">
+                <div class="unit-badge" style="width: 40px; height: 40px; font-size: 1rem;"><i class="fa-solid fa-people-arrows"></i></div>
+                <div class="agent-name" style="font-size: 1.05rem;">Human&ndash;AI Collaboration</div>
+              </div>
+              <p class="agent-desc" style="margin-bottom: 0;">
+                Examines how researchers interact with AI-generated hypotheses — when they adopt,
+                refine, or reject them — to understand human judgment in AI-assisted discovery.
+              </p>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Paper -->
+        <div>
+          <h2 class="section-title"><i class="fa-solid fa-book-open"></i> Paper</h2>
+          <div class="paper-card working" data-category="working">
+            <div class="paper-header">
+              <div class="paper-title">
+                &ldquo;Hypothesis Discovery with AI Research Agents in Finance and Accounting&rdquo;
+              </div>
+              <span class="badge badge-working">Working Paper</span>
+            </div>
+            <div class="paper-authors">Miao Liu</div>
+            <div style="margin-top: 16px;">
+              <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6528218" target="_blank" rel="noopener" class="btn btn-outline" style="font-size: 0.85rem;">
+                <i class="fa-solid fa-file-lines"></i> Read on SSRN
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ════════════════ FOOTER ════════════════ -->
+  <footer>
+    <p>
+      &copy; <span id="year"></span> Miao Liu &middot; Boston College, Carroll School of Management
+    </p>
+  </footer>
+
+  <button id="back-top" aria-label="Back to top">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <script src="js/main.js"></script>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
